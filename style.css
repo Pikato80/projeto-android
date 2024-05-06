@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'teste fonte';
+    src: url(fontes/idroid.otf);
+    font-family: 'fonte inicio';
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+
+header {
+    background-image: linear-gradient(to bottom, #28A15E, #033C1B);
+    margin: auto;
+}
+
+body{
+    background-color: #89CDA5;
+}
+ h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 70px;
+    color: white;
+    font-size: 50px;
+} 
+p{
+    
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+
+nav >a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 16px;
+}
+nav >a:hover {
+    font-size: 20px;
+    display:inline;
+    background-color: #2E9B5F;
+    padding: 7px;
+    border-radius: 5px;
+}
+main {
+    background-color: white;
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px #2e05274d;
+    
+}
+
+h2 {
+    font-family: 'teste fonte';
+    color: #123825;
+}
+.texto {
+    color: black;
+    text-align: justify;
+    text-indent:20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+h3 {
+    font-family:'teste fonte' ;
+    color: #0D5E2D;
+    background-color: #AEEDC9;
+    font-size: 25px;
+}
+.link {
+    color: #115F31;
+    background-color: #ABEDC8;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.corzinha {
+    color: rgb(46, 155, 44);
+    text-shadow: 1px 1px 3px  rgba(0, 0, 0, 0.658);
+}
+#div {
+    display: flex;
+    justify-content: center;
+}
+
+#poura {
+    font-size: 20px;
+}
+#catapemba {
+    background-color: #2FA866;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
+footer {
+    background-color:#C5EBD6;
+    padding: 20px;
+    border-radius: 20px;
+}
